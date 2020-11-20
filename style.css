@@ -1,0 +1,28 @@
+#foto{
+    border-radius: 80px;
+}
+.ul1{
+    font-size: 25px;
+}
+.ul2{
+    font-size: 20px;
+}
+.ul3{
+    font-size: 18px;
+}
+#ul4id{
+    font-size: 30px;
+}
+.ul4{
+    font-size: 16px;
+}
+body{
+    background-color: #E9C46A;
+    font-family: Montserrat, sans-serif;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#localidade{
+    text-decoration:underline ;
+}
