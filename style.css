@@ -9,12 +9,14 @@
 }
 .ul1{
     font-size: 25px;
+    font-style: italic;
 }
 .ul2{
     font-size: 20px;
 }
 .ul3{
     font-size: 18px;
+    font-style: italic;
 }
 #ul4id{
     font-size: 30px;
