@@ -25,10 +25,12 @@
 body{
     background-color: #E9C46A;
     font-family: Montserrat, sans-serif;
+
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    padding-bottom: 35px;
 }
 #localidade{
     text-decoration:underline ;
