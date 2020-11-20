@@ -1,8 +1,11 @@
 #foto{
     border-radius: 80px;
+    background-color: #e76f51;
     margin-right: 40px;
     border: 3px ridge #2a9d8f;
     float:left;
+    padding: 1px;
+
 }
 .ul1{
     font-size: 25px;
