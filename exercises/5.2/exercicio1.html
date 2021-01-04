@@ -82,6 +82,39 @@
         div3.className = 'left-content';
         document.body.lastElementChild.appendChild(div3);
 
+        // Exercicio 6
+        let div4 = document.createElement('div');
+        div4.className = 'right-content';
+        document.body.lastElementChild.appendChild(div4);
+
+        // Exercicio 7
+        let image1 = document.createElement('img');
+        image1.setAttribute('src','https://picsum.photos/200');
+        document.getElementsByClassName('left-content')[0].appendChild(image1);
+
+        // Exercicio 8
+
+        // let label = ['Um', 'Dois','Três','Quatro','Cinco','Seis','Sete', 'Oito', 'Nove', 'Dez'];
+
+        // const list = document.createElement('ul');
+
+        // for(let index = 0; index < 10; index += 1){
+        //     const li = document.createElement('li');
+        //     li.innerHTML = label[index];
+        //     list.appendChild(li);
+        // }
+        // document.querySelector('.right-content').appendChild(list);
+        let listaExtensa = ['Um', 'Dois','Três','Quatro','Cinco','Seis','Sete', 'Oito', 'Nove', 'Dez'];
+        const ulist1 = document.createElement('ul');
+        for (let i = 0; i < 10; i += 1) {
+            let li1 = document.createElement('li');
+            li1.innerHTML = listaExtensa[i];
+            ulist1.appendChild(li);
+        }
+
+        document.querySelector('.right-content').appendChild(ulist1)
+
+
     </script>
   </body>
 </html>
